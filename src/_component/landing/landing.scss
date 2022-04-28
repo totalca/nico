@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 .landing {
-  width: 100vw;
-  text-align: center;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   span {
     -webkit-text-stroke-width: 1.25px;
     -webkit-text-stroke-color: #000;
@@ -33,12 +35,12 @@
   }
 }
 @media screen and (max-height: 200px) {
-  .wrapper {
+  .landing {
     transform: scale(0.3,0.3);
   }
 }
 @media screen and (max-width: 576px) {
-  .wrapper {
+  .landing {
     span {
       font-size: 50px;
     }
