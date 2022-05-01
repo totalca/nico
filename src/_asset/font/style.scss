@@ -1,0 +1,113 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$nico-font-family}';
+  src:
+    url('#{$nico-font-path}/#{$nico-font-family}.ttf?q30czo') format('truetype'),
+    url('#{$nico-font-path}/#{$nico-font-family}.woff?q30czo') format('woff'),
+    url('#{$nico-font-path}/#{$nico-font-family}.svg?q30czo##{$nico-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$nico-font-family}' !important;
+  // speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter {
+  &:before {
+    content: $icon-twitter; 
+  }
+}
+.icon-social {
+  &:before {
+    content: $icon-social; 
+  }
+}
+.icon-globe {
+  &:before {
+    content: $icon-globe; 
+  }
+}
+.icon-earth {
+  &:before {
+    content: $icon-earth; 
+  }
+}
+.icon-world {
+  &:before {
+    content: $icon-world; 
+  }
+}
+.icon-menu {
+  &:before {
+    content: $icon-menu; 
+    color: #ffffff;
+  }
+}
+.icon-world1 {
+  &:before {
+    content: $icon-world1; 
+  }
+}
+.icon-globe1 {
+  &:before {
+    content: $icon-globe1; 
+  }
+}
+.icon-internet {
+  &:before {
+    content: $icon-internet; 
+  }
+}
+.icon-network {
+  &:before {
+    content: $icon-network; 
+  }
+}
+.icon-document-file-pdf {
+  &:before {
+    content: $icon-document-file-pdf; 
+    color: #ffffff;
+  }
+}
+.icon-document-file-pdf1 {
+  &:before {
+    content: $icon-document-file-pdf1; 
+  }
+}
+.icon-twitter2 {
+  &:before {
+    content: $icon-twitter2;     
+    color: #1da1f2;
+  }
+}
+.icon-codepen1 {
+  &:before {
+    content: $icon-codepen1; 
+  }
+}
+.icon-github-square {
+  &:before {
+    content: $icon-github-square; 
+  }
+}
+.icon-github1 {
+  &:before {
+    content: $icon-github1; 
+    color: #ffffff;
+  }
+}
+
